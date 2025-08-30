@@ -1,0 +1,20 @@
+# Ignore datasets
+creditcard.csv
+new_transactions.csv
+
+# Ignore trained models & scalers
+/models/
+*.joblib
+*.pkl
+
+# Ignore logs
+/logs/
+*.log
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Jupyter notebook checkpoints (if added later)
+.ipynb_checkpoints/
