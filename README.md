@@ -12,7 +12,7 @@ It covers everything from exploratory data analysis (EDA) to model training, pre
 - End-to-End Pipeline → Automates the full fraud detection workflow
 
 # Project Structure
-FRAUD/
+- FRAUD/
 - │
 - ├── data/                          # Dataset storage
 - ├── logs/                          # Log files
