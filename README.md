@@ -13,26 +13,26 @@ It covers everything from exploratory data analysis (EDA) to model training, pre
 
 # Project Structure
 FRAUD/
-│
-├── data/                          # Dataset storage
-├── logs/                          # Log files
-├── models/                        # Trained models and scalers
-│
-├── 1_data_analysis.py
-├── 2_feature_engineering.py
-├── 3_model_training.py
-├── 4_model_saving_prediction.py
-├── 5_alert_system.py
-├── 6_slack_alert_system.py
-├── 7_fraud_detection_pipeline.py
-│
-├── creditcard.csv                 # Main dataset (download from Kaggle)
-├── new_transactions.csv           # New unseen transactions for testing
-├── Distributiongraphs.png         # Dataset visualizations
-├── Graphs.png                     # Model comparison and performance metrics
-├── fraud_detection.log            # Sample log file
-├── requirements.txt               # Dependencies
-└── README.md                      # Documentation
+- │
+- ├── data/                          # Dataset storage
+- ├── logs/                          # Log files
+- ├── models/                        # Trained models and scalers
+- │
+- ├── 1_data_analysis.py
+- ├── 2_feature_engineering.py
+- ├── 3_model_training.py
+- ├── 4_model_saving_prediction.py
+- ├── 5_alert_system.py
+- ├── 6_slack_alert_system.py
+- ├── 7_fraud_detection_pipeline.py
+- │
+- ├── creditcard.csv                 # Main dataset (download from Kaggle)
+- ├── new_transactions.csv           # New unseen transactions for testing
+- ├── Distributiongraphs.png         # Dataset visualizations
+- ├── Graphs.png                     # Model comparison and performance metrics
+- ├── fraud_detection.log            # Sample log file
+- ├── requirements.txt               # Dependencies
+- └── README.md                      # Documentation
 
 # Dataset
 We use the Credit Card Fraud Detection Dataset from Kaggle:
@@ -64,6 +64,7 @@ Install dependencies:
 # Usage
 Run the full pipeline
 - python 7_fraud_detection_pipeline.py
+  
 This will:
 - Load and preprocess dataset
 - Engineer new features
